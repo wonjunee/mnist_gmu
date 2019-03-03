@@ -1,0 +1,402 @@
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow/contrib/layers/python/layers/layers.py:1624: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+WARNING:tensorflow:From <ipython-input-8-8b31f92f2d4d>:23: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+Training...
+
+EPOCHS: 1
+(55000, 10) (55000, 84) (55000, 1024)
+
+Testing...
+
+Test Accuracy = 0.959
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Y_train: (55000, 1)
+Y_train: (10000, 1)
+prediction: (10000,)
+
+ train_mat_type: 2, Accuracy by SVC (linear): 0.9591
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Y_train: (55000, 1)
+Y_train: (10000, 1)
+prediction: (10000,)
+
+ train_mat_type: 4, Accuracy by SVC (linear): 0.9581
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Y_train: (55000, 1)
+Y_train: (10000, 1)
+prediction: (10000,)
+
+ train_mat_type: 6, Accuracy by SVC (linear): 0.97
+
+EPOCHS: 2
+(55000, 10) (55000, 84) (55000, 1024)
+
+Testing...
+
+Test Accuracy = 0.974
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Y_train: (55000, 1)
+Y_train: (10000, 1)
+prediction: (10000,)
+
+ train_mat_type: 2, Accuracy by SVC (linear): 0.9743
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Y_train: (55000, 1)
+Y_train: (10000, 1)
+prediction: (10000,)
+
+ train_mat_type: 4, Accuracy by SVC (linear): 0.9767
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Y_train: (55000, 1)
+Y_train: (10000, 1)
+prediction: (10000,)
+
+ train_mat_type: 6, Accuracy by SVC (linear): 0.9823
+
+EPOCHS: 3
+(55000, 10) (55000, 84) (55000, 1024)
+
+Testing...
+
+Test Accuracy = 0.978
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Y_train: (55000, 1)
+Y_train: (10000, 1)
+prediction: (10000,)
+
+ train_mat_type: 2, Accuracy by SVC (linear): 0.9788
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Y_train: (55000, 1)
+Y_train: (10000, 1)
+prediction: (10000,)
+
+ train_mat_type: 4, Accuracy by SVC (linear): 0.9769
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Y_train: (55000, 1)
+Y_train: (10000, 1)
+prediction: (10000,)
+
+ train_mat_type: 6, Accuracy by SVC (linear): 0.9832
+
+EPOCHS: 4
+(55000, 10) (55000, 84) (55000, 1024)
+
+Testing...
+
+Test Accuracy = 0.981
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Y_train: (55000, 1)
+Y_train: (10000, 1)
+prediction: (10000,)
+
+ train_mat_type: 2, Accuracy by SVC (linear): 0.9814
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Y_train: (55000, 1)
+Y_train: (10000, 1)
+prediction: (10000,)
+
+ train_mat_type: 4, Accuracy by SVC (linear): 0.9757
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Y_train: (55000, 1)
+Y_train: (10000, 1)
+prediction: (10000,)
+
+ train_mat_type: 6, Accuracy by SVC (linear): 0.9838
+
+EPOCHS: 5
+(55000, 10) (55000, 84) (55000, 1024)
+
+Testing...
+
+Test Accuracy = 0.982
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Y_train: (55000, 1)
+Y_train: (10000, 1)
+prediction: (10000,)
+
+ train_mat_type: 2, Accuracy by SVC (linear): 0.9829
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Y_train: (55000, 1)
+Y_train: (10000, 1)
+prediction: (10000,)
+
+ train_mat_type: 4, Accuracy by SVC (linear): 0.9766
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Y_train: (55000, 1)
+Y_train: (10000, 1)
+prediction: (10000,)
+
+ train_mat_type: 6, Accuracy by SVC (linear): 0.9845
+
+EPOCHS: 6
+(55000, 10) (55000, 84) (55000, 1024)
+
+Testing...
+
+Test Accuracy = 0.984
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Y_train: (55000, 1)
+Y_train: (10000, 1)
+prediction: (10000,)
+
+ train_mat_type: 2, Accuracy by SVC (linear): 0.9839
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Y_train: (55000, 1)
+Y_train: (10000, 1)
+prediction: (10000,)
+
+ train_mat_type: 4, Accuracy by SVC (linear): 0.9753
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Y_train: (55000, 1)
+Y_train: (10000, 1)
+prediction: (10000,)
+
+ train_mat_type: 6, Accuracy by SVC (linear): 0.9844
+
+EPOCHS: 7
+(55000, 10) (55000, 84) (55000, 1024)
+
+Testing...
+
+Test Accuracy = 0.985
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Y_train: (55000, 1)
+Y_train: (10000, 1)
+prediction: (10000,)
+
+ train_mat_type: 2, Accuracy by SVC (linear): 0.9845
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Y_train: (55000, 1)
+Y_train: (10000, 1)
+prediction: (10000,)
+
+ train_mat_type: 4, Accuracy by SVC (linear): 0.9757
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Y_train: (55000, 1)
+Y_train: (10000, 1)
+prediction: (10000,)
+
+ train_mat_type: 6, Accuracy by SVC (linear): 0.9852
+
+EPOCHS: 8
+(55000, 10) (55000, 84) (55000, 1024)
+
+Testing...
+
+Test Accuracy = 0.985
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Y_train: (55000, 1)
+Y_train: (10000, 1)
+prediction: (10000,)
+
+ train_mat_type: 2, Accuracy by SVC (linear): 0.9853
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Y_train: (55000, 1)
+Y_train: (10000, 1)
+prediction: (10000,)
+
+ train_mat_type: 4, Accuracy by SVC (linear): 0.9757
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Y_train: (55000, 1)
+Y_train: (10000, 1)
+prediction: (10000,)
+
+ train_mat_type: 6, Accuracy by SVC (linear): 0.9849
+
+EPOCHS: 9
+(55000, 10) (55000, 84) (55000, 1024)
+
+Testing...
+
+Test Accuracy = 0.986
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Y_train: (55000, 1)
+Y_train: (10000, 1)
+prediction: (10000,)
+
+ train_mat_type: 2, Accuracy by SVC (linear): 0.9855
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Y_train: (55000, 1)
+Y_train: (10000, 1)
+prediction: (10000,)
+
+ train_mat_type: 4, Accuracy by SVC (linear): 0.9754
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Y_train: (55000, 1)
+Y_train: (10000, 1)
+prediction: (10000,)
+
+ train_mat_type: 6, Accuracy by SVC (linear): 0.9856
+
+EPOCHS: 10
+(55000, 10) (55000, 84) (55000, 1024)
+
+Testing...
+
+Test Accuracy = 0.986
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Y_train: (55000, 1)
+Y_train: (10000, 1)
+prediction: (10000,)
+
+ train_mat_type: 2, Accuracy by SVC (linear): 0.9861
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Y_train: (55000, 1)
+Y_train: (10000, 1)
+prediction: (10000,)
+
+ train_mat_type: 4, Accuracy by SVC (linear): 0.9756
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Y_train: (55000, 1)
+Y_train: (10000, 1)
+prediction: (10000,)
+
+ train_mat_type: 6, Accuracy by SVC (linear): 0.9854
+
+EPOCHS: 11
+(55000, 10) (55000, 84) (55000, 1024)
+
+Testing...
+
+Test Accuracy = 0.987
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Y_train: (55000, 1)
+Y_train: (10000, 1)
+prediction: (10000,)
+
+ train_mat_type: 2, Accuracy by SVC (linear): 0.9866
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Y_train: (55000, 1)
+Y_train: (10000, 1)
+prediction: (10000,)
+
+ train_mat_type: 4, Accuracy by SVC (linear): 0.9762
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Y_train: (55000, 1)
+Y_train: (10000, 1)
+prediction: (10000,)
+
+ train_mat_type: 6, Accuracy by SVC (linear): 0.986
+
+EPOCHS: 12
+(55000, 10) (55000, 84) (55000, 1024)
+
+Testing...
+
+Test Accuracy = 0.986
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Y_train: (55000, 1)
+Y_train: (10000, 1)
+prediction: (10000,)
+
+ train_mat_type: 2, Accuracy by SVC (linear): 0.9871
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Y_train: (55000, 1)
+Y_train: (10000, 1)
+prediction: (10000,)
+
+ train_mat_type: 4, Accuracy by SVC (linear): 0.9757
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Y_train: (55000, 1)
+Y_train: (10000, 1)
+prediction: (10000,)
+
+ train_mat_type: 6, Accuracy by SVC (linear): 0.9866
+
+EPOCHS: 13
+(55000, 10) (55000, 84) (55000, 1024)
+
+Testing...
+
+Test Accuracy = 0.987
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Y_train: (55000, 1)
+Y_train: (10000, 1)
+prediction: (10000,)
+
+ train_mat_type: 2, Accuracy by SVC (linear): 0.9873
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Y_train: (55000, 1)
+Y_train: (10000, 1)
+prediction: (10000,)
+
+ train_mat_type: 4, Accuracy by SVC (linear): 0.9762
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Y_train: (55000, 1)
+Y_train: (10000, 1)
+prediction: (10000,)
+
+ train_mat_type: 6, Accuracy by SVC (linear): 0.9859
+
+EPOCHS: 14
+(55000, 10) (55000, 84) (55000, 1024)
+
+Testing...
+
+Test Accuracy = 0.987
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Y_train: (55000, 1)
+Y_train: (10000, 1)
+prediction: (10000,)
+
+ train_mat_type: 2, Accuracy by SVC (linear): 0.9873
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Y_train: (55000, 1)
+Y_train: (10000, 1)
+prediction: (10000,)
+
+ train_mat_type: 4, Accuracy by SVC (linear): 0.9759
+/usr/local/lib/python3.6/dist-packages/sklearn/utils/validation.py:761: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
