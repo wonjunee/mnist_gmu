@@ -67,13 +67,13 @@ def pipeline(x):
     fc6 = dense(model, 1024, mu=mu, sigma=sigma)
     
     # Activation.
-    model = tf.nn.relu(model)
+    model = tf.nn.relu(fc6)
 
     # Fully Connected.
     fc4 = dense(model, 84, mu=mu, sigma=sigma)
     
     # Activation.
-    model = tf.nn.relu(model)
+    model = tf.nn.relu(fc4)
 
     # Fully Connected. Input = 120. Output = 84.
     model = dense(model, 10, mu=mu, sigma=sigma)
