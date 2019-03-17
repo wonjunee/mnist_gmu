@@ -175,26 +175,27 @@ def main(argv):
 	                    tf_svm6.append(svc_linear_accuracy)
 
 	    for train_mat_type in mat_type_list:
-	        plt.figure(figsize=(10,5))
-	        plt.plot(epochs_ranges, tf_only, 'o-', label="TF")
-	        plt.plot(epochs_ranges, accuracy_svc_linear[train_mat_type], 'o-',label="SVC (linear)")
+            plt.figure(figsize=(10,5))
+            plt.plot(epochs_ranges, tf_only, 'o-', label="TF")
+            plt.plot(epochs_ranges, accuracy_svc_linear[train_mat_type], 'o-',label="SVC (linear)")
 
-	        a = np.argmax(tf_only)
-	        plt.annotate(tf_only[a], (epochs_ranges[a], tf_only[a]))
+            a = np.argmax(tf_only)
+            plt.annotate(tf_only[a], (epochs_ranges[a], tf_only[a]))
 
-	        a = np.argmax(accuracy_svc_linear[train_mat_type])
-	        plt.annotate(accuracy_svc_linear[train_mat_type][a], (epochs_ranges[a], accuracy_svc_linear[train_mat_type][a]))
+            a = np.argmax(accuracy_svc_linear[train_mat_type])
+            plt.annotate(accuracy_svc_linear[train_mat_type][a], (epochs_ranges[a], accuracy_svc_linear[train_mat_type][a]))
 
-	        plt.legend()
-	        title  = "{}-{}-{}.png".format(filename, SIZE, train_mat_type)
+            plt.legend()
+            title  = "{}-{}-{}.png".format(filename, SIZE, train_mat_type)
             title1 = title
 
             plt.title(title1)
             plt.grid()
             plt.savefig(str(title))
 
-	pickle.dump({"tf_only":tf_only, "tf_svm2":tf_svm2, "tf_svm4":tf_svm4, "tf_svm6":tf_svm6}, open("{}-{}.p".format(filename, SIZE), "w"))
+            # plt.show()
 
+    pickle.dump({"tf_only":tf_only, "tf_svm2":tf_svm2, "tf_svm4":tf_svm4, "tf_svm6":tf_svm6}, open("{}-{}.p".format(filename, SIZE),"wb"))
 
 if __name__ == "__main__":
     main(sys.argv)
