@@ -39,8 +39,8 @@ def mnist_generate_data(reduced=False, train_size=1000, padding=True):
 		print("\nTaking {} per digit for train data".format(train_size))
 
 		# Initialize
-		X_train_reduced = X_train[:train_size*10]
-		y_train_reduced = y_train[:train_size*10]
+		X_train = X_train[:train_size*10]
+		y_train = y_train[:train_size*10]
 
 	y_train = y_train.reshape((y_train.shape[0], 1))
 	y_test = y_test.reshape((y_test.shape[0], 1))
